@@ -9,6 +9,7 @@ import SinglePostPage from './pages/SinglePostPage'
 const App = () => {
   return (
     <BrowserRouter>
+    <Navbar />
       <Routes>
         <Route exact path="/" element={<DashboardPage />} />
         <Route exact path="/posts" element={<PostsPage />} />
